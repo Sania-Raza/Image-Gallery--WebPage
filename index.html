@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+    <br>
+    <div class="filters">
+        <button class="filter-btn" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="robotics">Robotics</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="birds">Birds</button>
+    </div>
+    <br>
+    <div class="gallery">
+        <div class="image" data-category="robotics">
+            <img src="images/img1.jpg" alt="">
+        </div>
+        <div class="image" data-category="robotics">
+            <img src="images/img2.webp" alt="">
+        </div>
+        <div class="image" data-category="robotics">
+            <img src="images/img3.jpg" alt="">
+        </div>
+        <div class="image" data-category="robotics">
+            <img src="images/img4.jpg" alt="">
+        </div>
+        <div class="image" data-category="robotics">
+            <img src="images/img5.jpg" alt="">
+        </div>
+ <div class="image" data-category="animals">
+            <img src="images/img6.jpeg" alt="">
+        </div>
+         <div class="image" data-category="animals">
+            <img src="images/img7.jpeg" alt="">
+        </div>
+        <div class="image" data-category="animals">
+            <img src="images/img8.jpeg" alt="">
+        </div>
+        <div class="image" data-category="animals">
+            <img src="images/img9.jpg" alt="">
+        </div>
+        <div class="image" data-category="birds">
+            <img src="images/img10.jpeg" alt="">
+        </div>
+        <div class="image" data-category="animals">
+            <img src="images/img11.jpeg" alt="">
+        </div>
+        <div class="image" data-category="animals">
+            <img src="images/img12.webp" alt="">
+        </div>
+        <div class="image" data-category="animals">
+            <img src="images/img13.jpeg" alt="">
+        </div>
+        <div class="image" data-category="birds">
+            <img src="images/img14.jpg" alt="">
+        </div>
+        <div class="image" data-category="birds">
+            <img src="images/img15.jpeg" alt="">
+        </div>
+        <div class="image" data-category="birds">
+            <img src="images/img16.webp" alt="">
+        </div>
+        <div class="image" data-category="birds">
+            <img src="images/img17.webp" alt="">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox hidden">
+         <span class="close">&times;</span> 
+        <img class="lightbox-content" id="lightbox-img" src="">
+        <br>
+        <div class="nav-buttons">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
